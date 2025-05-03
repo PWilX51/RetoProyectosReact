@@ -1,0 +1,63 @@
+.board {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.board-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.square:focus {
+    filter: blur(5px);
+}
+
+.activo {
+    filter: blur(5px);
+}
+
+.board-row:nth-child(even) .square:nth-child(odd) {
+    background-color: black;
+}
+
+.board-row:nth-child(odd) .square:nth-child(even) {
+    background-color: black;
+}
+
+.board-row:nth-child(even) .square:nth-child(even) {
+    background-color: brown;
+}
+
+.board-row:nth-child(odd) .square:nth-child(odd) {
+    background-color: brown;
+}
+
+.black::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(5, 17, 26);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.red::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(61, 10, 10);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
