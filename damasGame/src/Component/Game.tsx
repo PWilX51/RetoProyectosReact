@@ -14,7 +14,6 @@ export const Game = () => {
 
     return(
         <Board filas={filas} onBoard={(posI, posF) => setFilas((prevFilas) => {
-            console.log(posI, posF);
             const [x, y] = posI;
             const [a, b] = posF;
             const newFilas=[...prevFilas];

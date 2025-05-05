@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Proyectos en react</h1>
   <h3>
-    <strong>Reto de 30 dias, 30 proyectos</strong>
+    <strong>Reto de 30 proyectos</strong>
   </h3>
 </div>
 

@@ -19,11 +19,11 @@ export const Board = ({filas, onBoard}) => {
             if(fila+1<=8){
                 if(columna-1>=0){
                     filaSiguiente.childNodes[fila+1].childNodes[columna-1].classList.add("activo");
-                    filaSiguiente.childNodes[fila+1].childNodes[columna-1].addEventListener('click', (event) => onBoard([fila, columna], [Number(event.target.parentNode.id), Number(event.target.id)]), false);
+                    filaSiguiente.childNodes[fila+1].childNodes[columna-1].addEventListener('click', (event) => onBoard([fila, columna], [Number(event.target.parentNode.id), Number(event.target.id)]));
                 }
                 if(columna+1<=7){
                     filaSiguiente.childNodes[fila+1].childNodes[columna+1].classList.add("activo");
-                    filaSiguiente.childNodes[fila+1].childNodes[columna+1].addEventListener('click', (event) => onBoard([fila, columna], [Number(event.target.parentNode.id), Number(event.target.id)]), false);
+                    filaSiguiente.childNodes[fila+1].childNodes[columna+1].addEventListener('click', (event) => onBoard([fila, columna], [Number(event.target.parentNode.id), Number(event.target.id)]));
                 }
             }
         }else{
