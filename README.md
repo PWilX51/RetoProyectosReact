@@ -1,46 +1,69 @@
-<div align="center">
-  <h1>Proyectos en react</h1>
-  <h3>
-    <strong>Reto de 30 proyectos</strong>
-  </h3>
-</div>
+# React + TypeScript + Vite
 
-<p></p>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-<div align="center">
+Currently, two official plugins are available:
 
-![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat)
-![GitHub stars](https://img.shields.io/github/stars/PWilX51/RetoProyectosReact)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-</div>
+## Expanding the ESLint configuration
 
-## Proyectos
-| # | Nombre | Código |
-| --- | ---------------- | --------------- |
-| 1 | **Juego de damas**| [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) | 
-| 2 | **Calendario** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 3 | **Galería de Imágenes** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 4 | **Blog Personal** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 5 | **Reloj Mundial** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 6 | **Calculadora** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 7 | **Lista de Compras** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 8 | **Chat en Tiempo Real** | | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 9 | **Reproductor de Música** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 10 | **Mapa Interactivo** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 11 | **Convertidor de Monedas** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 12 | **Sistema de Autenticación** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 13 | **Portafolio Personal** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 14 | **Tienda en Línea** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 15 | **Lista de Reproducción de Videos** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 16 | **Widget del Clima** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 17 | **Juego de Memoria** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 18 | **Encuesta en Línea** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 19 | **Generador de Contraseñas** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 20 | **Aplicación de Noticias** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) | 
-| 21 | **Herramienta de Dibujo** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 22 | **Contador de Palabras** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 23 | **Blog de Viajes** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 24 | **Juego de Ahorcado** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 25 | **Aplicación de Recordatorios** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 26 | **Lista de Tareas** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)] (https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
-| 27 | **Juego de tic tac toe** | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)](https://github.com/PWilX51/RetoProyectosReact/edit/main/README.md) |
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+
+```js
+export default tseslint.config([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+
+      // Remove tseslint.configs.recommended and replace with this
+      ...tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      ...tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      ...tseslint.configs.stylisticTypeChecked,
+
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
+
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
+
+export default tseslint.config([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
